@@ -10,6 +10,7 @@ public class HomeWorkApp {
         printIsPositive(-7);
         System.out.println(isNegative(7));
         printStringNTimes("Java",6);
+        System.out.println(isLeapYear(1999));
     }
 
     public static void printThreeWords() {
@@ -68,6 +69,10 @@ public class HomeWorkApp {
         for (int i = 0; i < n; i++) {
             System.out.println(str);
         }
+    }
+
+    public static boolean isLeapYear(int year) {
+        return year % 4 == 0 && year % 100 != 0 || year % 400 == 0;
     }
 }
 
