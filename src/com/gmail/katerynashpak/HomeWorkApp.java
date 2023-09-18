@@ -8,6 +8,7 @@ public class HomeWorkApp {
         compareNumbers(6, 5);
         System.out.println(checkSumInRange(5, 9));
         printIsPositive(-7);
+        System.out.println(isNegative(7));
     }
 
     public static void printThreeWords() {
@@ -56,6 +57,9 @@ public class HomeWorkApp {
         } else {
             System.out.println("Number is negative");
         }
+    }
+    public static boolean isNegative(int num) {
+        return num < 0;
     }
 }
 
