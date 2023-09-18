@@ -5,6 +5,7 @@ public class HomeWorkApp {
         printThreeWords();
         checkSumSign(5, 3);
         printColor(198);
+        compareNumbers(6,5);
     }
 
     public static void printThreeWords() {
@@ -33,6 +34,13 @@ public class HomeWorkApp {
         }
     }
 
+    public static void compareNumbers(int a, int b) {
+        if (a >= b) {
+            System.out.println("a >= b");
+        } else {
+            System.out.println("a < b");
+        }
+    }
 }
 
 
