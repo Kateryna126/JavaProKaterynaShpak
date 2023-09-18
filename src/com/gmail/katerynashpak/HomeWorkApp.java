@@ -3,7 +3,8 @@ package com.gmail.katerynashpak;
 public class HomeWorkApp {
     public static void main(String[] args) {
         printThreeWords();
-        checkSumSign(5,3);
+        checkSumSign(5, 3);
+        printColor(198);
     }
 
     public static void printThreeWords() {
@@ -22,8 +23,17 @@ public class HomeWorkApp {
         }
     }
 
+    public static void printColor(int value) {
+        if (value <= 0) {
+            System.out.println("Red");
+        } else if (value > 0 && value <= 100) {
+            System.out.println("Yellow");
+        } else {
+            System.out.println("Green");
+        }
+    }
 
 }
-}
+
 
 
