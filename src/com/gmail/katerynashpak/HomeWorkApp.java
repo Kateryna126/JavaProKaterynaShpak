@@ -6,7 +6,8 @@ public class HomeWorkApp {
         checkSumSign(5, 3);
         printColor(198);
         compareNumbers(6, 5);
-        System.out.println(checkSumInRange(5,9));
+        System.out.println(checkSumInRange(5, 9));
+        printIsPositive(-7);
     }
 
     public static void printThreeWords() {
@@ -47,6 +48,14 @@ public class HomeWorkApp {
         int sum = a + b;
 
         return sum >= 10 && sum <= 20;
+    }
+
+    public static void printIsPositive(int num) {
+        if (num >= 0) {
+            System.out.println("Number is positive");
+        } else {
+            System.out.println("Number is negative");
+        }
     }
 }
 
