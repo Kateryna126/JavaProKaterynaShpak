@@ -9,6 +9,7 @@ public class HomeWorkApp {
         System.out.println(checkSumInRange(5, 9));
         printIsPositive(-7);
         System.out.println(isNegative(7));
+        printStringNTimes("Java",6);
     }
 
     public static void printThreeWords() {
@@ -58,8 +59,15 @@ public class HomeWorkApp {
             System.out.println("Number is negative");
         }
     }
+
     public static boolean isNegative(int num) {
         return num < 0;
+    }
+
+    public static void printStringNTimes(String str, int n) {
+        for (int i = 0; i < n; i++) {
+            System.out.println(str);
+        }
     }
 }
 
